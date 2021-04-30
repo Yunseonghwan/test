@@ -37,9 +37,6 @@ export default () => {
     }
   };
 
-  useEffect(() => {
-    setTimeout(() => bannerData, 1000);
-  });
   return (
     <SearchPresenter
       height={height}
